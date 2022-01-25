@@ -1,15 +1,12 @@
 package model;
 
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+
+@AllArgsConstructor
 public enum Gender {
     MALE("Mr."), FEMALE("Ms.");
 
-    private String greeting;
-
-    private Gender(String greeting) {
-        this.greeting = greeting;
-    }
-
-    public String getGreeting() {
-        return greeting;
-    }
+    @Getter
+    private final String greeting;
 }

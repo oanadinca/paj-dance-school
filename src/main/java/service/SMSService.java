@@ -1,4 +1,7 @@
 package service;
 
-public class ReservationService {
+import org.springframework.stereotype.Service;
+
+@Service
+public class SMSService {
 }

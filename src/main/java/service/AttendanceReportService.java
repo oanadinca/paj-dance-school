@@ -1,4 +1,7 @@
 package service;
 
-public class AttendanceService {
+import org.springframework.stereotype.Service;
+
+@Service
+public class AttendanceReportService {
 }

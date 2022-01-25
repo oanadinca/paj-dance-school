@@ -16,5 +16,10 @@
       <option name="name" value="JBoss Community repository" />
       <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
     </remote-repository>
+    <remote-repository>
+      <option name="id" value="JFrog" />
+      <option name="name" value="JFrog" />
+      <option name="url" value="https://usetyl.jfrog.io/usetyl/tyl-maven-virtual" />
+    </remote-repository>
   </component>
 </project>
